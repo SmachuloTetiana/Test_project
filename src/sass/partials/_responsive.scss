@@ -1,3 +1,10 @@
+@media (max-width: 840px) {
+    .container {
+        width: 94%;
+        padding: 0 3%;
+    }
+}
+
 @media (max-width: 768px) { 
     .container {
         width: 94%;
@@ -33,7 +40,7 @@
 
     .information-block-detail {
         li {
-            flex: 1 1 50%;
+            flex: 1 1 25%;
         }
     }
 }

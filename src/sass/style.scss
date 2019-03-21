@@ -111,7 +111,7 @@
         }
 
         button {
-            background: url(../image/btn-bg.jpg) repeat-x;
+            background: linear-gradient(#d53f36, #b5362e);
             width: 115px;
             height: 29px;
             border: none;
@@ -121,6 +121,10 @@
             line-height: 29px;
             border-radius: 2px;
             cursor: pointer;
+
+            &:hover {
+                background: linear-gradient(#b5362e, #d53f36);
+            }
         }
     }
 }

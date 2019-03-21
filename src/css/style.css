@@ -75,7 +75,7 @@
     margin: 10px 0;
     line-height: 20px; }
   .article .article-element button {
-    background: url(../image/btn-bg.jpg) repeat-x;
+    background: linear-gradient(#d53f36, #b5362e);
     width: 115px;
     height: 29px;
     border: none;
@@ -85,6 +85,8 @@
     line-height: 29px;
     border-radius: 2px;
     cursor: pointer; }
+    .article .article-element button:hover {
+      background: linear-gradient(#b5362e, #d53f36); }
 
 /** End Article **/
 /** Information Block **/
@@ -123,6 +125,11 @@
       margin-left: 15px; }
 
 /** End Information Block **/
+@media (max-width: 840px) {
+  .container {
+    width: 94%;
+    padding: 0 3%; } }
+
 @media (max-width: 768px) {
   .container {
     width: 94%;
@@ -144,7 +151,7 @@
       .header-navbar .header-navbar__nav li a {
         line-height: 25px; }
   .information-block-detail li {
-    flex: 1 1 50%; } }
+    flex: 1 1 25%; } }
 
 @media (max-width: 480px) {
   .information-block-detail li {
