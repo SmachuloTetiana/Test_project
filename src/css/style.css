@@ -74,7 +74,7 @@
     color: #8d8d8d;
     margin: 10px 0;
     line-height: 20px; }
-  .article .article-element button {
+  .article .article-element .btn-red {
     background: linear-gradient(#d53f36, #b5362e);
     width: 115px;
     height: 29px;
@@ -85,7 +85,7 @@
     line-height: 29px;
     border-radius: 2px;
     cursor: pointer; }
-    .article .article-element button:hover {
+    .article .article-element .btn-red:hover {
       background: linear-gradient(#b5362e, #d53f36); }
 
 /** End Article **/

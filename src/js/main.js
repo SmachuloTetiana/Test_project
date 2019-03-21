@@ -5,13 +5,11 @@
     })
 
 
-    $(window).resize(function() {
-        var width = $(window).width();
-        if(width > 768) {
-            $('.header-navbar__nav').css("display", "flex");
-        } else {
-            $('.header-navbar__nav').css("display", "none");            
-        }
-    })
+    $(window).on('resize', function() {
+        const width = $(window).width();
+        const displayState = width > 768 ? 'flex' : 'none';
+
+        $('.header-navbar__nav').css('display', displayState);
+    });
 
 })(window.jQuery);
