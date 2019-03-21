@@ -27,7 +27,5 @@ gulp.task('run-browser', function () {
   });
 });
 
-
-
 gulp.task('default', ['sass:watch', 'run-browser']);
 
